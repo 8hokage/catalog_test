@@ -1,0 +1,31 @@
+.pages {
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.page {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background: #ededed;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.page.active {
+    background: #b2b2b2;
+}
+
+.page:hover {
+    background: #b2b2b2;
+}
+
+.page + .page {
+    margin-left: 4px;
+}
