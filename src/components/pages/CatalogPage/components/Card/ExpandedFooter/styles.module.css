@@ -1,0 +1,30 @@
+
+.expandable {
+    padding: 10px 0;
+    border-top: 1px solid #efefef;
+    margin-top: 10px;
+}
+
+.columnButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+.columnButtons button + button {
+    margin-top: 20px;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 40%;
+}
+
+.rightButtons {
+    display: flex;
+    align-items: center;
+}
+
+.expanded {
+    margin-top: 0;
+}
