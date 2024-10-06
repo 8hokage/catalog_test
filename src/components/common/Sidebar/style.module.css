@@ -1,0 +1,10 @@
+.sidebar {
+    width: 250px;
+    background: #32364a;
+    color: #fff
+}
+
+.menu {
+    list-style: none;
+    margin-top: 100px;
+}
