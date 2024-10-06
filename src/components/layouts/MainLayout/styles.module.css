@@ -28,4 +28,7 @@
     height: 100px;
     background: #131313;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

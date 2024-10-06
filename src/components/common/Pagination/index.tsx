@@ -22,9 +22,9 @@ export const Pagination: FC<PaginationProps> = ({
   return (
     <div className={styles.pages}>
       {Array.from(Array(totalPages).keys()).map((item) => {
-        console.log(page, item)
         return (
           <div
+            key={item}
             onClick={handleClick(item)}
             className={cls(styles.page, {
               [styles.active]: page === item,

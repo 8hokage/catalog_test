@@ -1,4 +1,4 @@
-import { FC, useRef, useState } from "react";
+import { FC, useState } from "react";
 import styles from "./styles.module.css";
 import { ExpandedFooter } from "./ExpandedFooter";
 import { CardResponse } from "../../../../../types/general";

@@ -7,8 +7,9 @@
 
 .catalog {
     padding-right: 10px;
-    margin: 20px 0;
+    margin: 10px 0;
     overflow: auto;
+    flex: 1;
 }
 
 .loading {

@@ -17,13 +17,6 @@ export const CatalogPage = () => {
   };
 
   useEffect(() => {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-  }, [page])
-
-  useEffect(() => {
     setIsLoaded(false);
     const fetchData = async () => {
       const res = await getNews(page);
@@ -51,11 +44,11 @@ export const CatalogPage = () => {
           )}
         </div>
         <div className={styles.paginationContainer}>
-          <Pagination
+          {cards.length > 0 && <Pagination
             page={page}
             onClick={changePage}
             totalPages={totalPages || 1}
-          />
+          />}
         </div>
       </div>
     </MainLayout>
